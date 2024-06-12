@@ -1,0 +1,109 @@
+/* Card.css */
+.card {
+    width: 20.82vw;
+    transition: transform 0.2s;
+    border-left: 1px solid rgb(237 232 232);
+  }
+
+  .price {
+    width: 15.45px;
+    font-size: 24px;
+  }
+  .price-duration {
+    font-size: 12px;
+  }
+  .pricing-figures {
+    display: flex;
+    align-items: baseline;
+  }
+  .price-dollar {
+    font-size: 48px;
+  }
+
+  .card:hover {
+    transform: scale(1s);
+    .price-button-container {
+      background-color: #FF3A3A;
+      transition-duration: 0.5s;
+    }
+  }
+
+  .card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    margin: 0px 30px 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .card .price {
+    font-size: 1.25em;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .card .savings {
+    width: 227.5px;
+    color: green;
+    padding: 0px 0px 20px;
+    border-bottom: 1px solid #ede8e8;
+    margin-top: 0px;
+    margin: 0px 0px 10px;
+  }
+
+
+  .card .features {
+    list-style-type: none;
+    padding: 0px 25px;
+    padding-top: 36px;
+  }
+  .price-button-container {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 62px;
+  }
+  .most-popular-label {
+
+      margin-top:
+      -25px;
+      padding: 0px 30px;
+      color:red ;
+      font-size: 14px
+  }
+  .price-button-container:hover {
+    background-color: #FF3A3A;
+    transition-duration: 1s;
+  }
+  .card:hover {
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, .08);
+    border-radius: 10px;
+  }
+
+
+  .overall-div {
+    margin: 0px 0px 40px;
+    padding: 0px 25px;
+  }
+
+  .card .features li {
+    font-size: 14px;
+    margin: 0px 0px 15px 8px;
+    list-style: circle;
+    font-weight: 300;
+  }
+
+  .card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.95em;
+  }
+
+  .card button:hover {
+    background-color: #0056b3;
+  }

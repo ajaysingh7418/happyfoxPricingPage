@@ -1,0 +1,71 @@
+{
+    "HelpDeskAutomation": {
+      "SmartRuleAutomation": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CannedActions(Macros)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "TicketTemplates": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AutomaticTimeTracking": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SLAmanagement": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      },
+      "SLABreachNotification": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "RoundRobinTicketAssignment": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "RoundRobinTicketAssignmentonActiveAgents": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      },
+      "LoadBalancedTicketAssignment": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ScheduledTickets": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AgentScripting": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      }
+    }
+}
+  

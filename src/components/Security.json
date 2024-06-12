@@ -1,0 +1,89 @@
+{
+    "Security": {
+      "SOC2TypeIICompliance": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Role-BasedSecurity": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SSLCertificateHosting(CustomDomain)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SingleSign-on(Azure,Google,SAML,Okta&more)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Session-BasedSecurity": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AutomaticDataDeletion/Redaction": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "TwoFactorAuthentication": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "DataEncryption-RestandTransit": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SSOLockoutRecovery": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "YourOwnSingleSign-on(JWT)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "DigitallySignedEmails(DKIM)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "PasswordPolicyManagement": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "IP-BasedRestriction": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AuditLogs": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}
+  

@@ -1,0 +1,144 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+}
+
+.comparison-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* margin-right: auto; */
+  margin: auto;
+}
+.header-container {
+  position: sticky;
+  top: 60px;
+  background-color: #fff; /* Adjust as needed */
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+
+.comparison-header,
+.comparison-row {
+  display: flex;
+}
+.comparison-header {
+  padding: 30px 0px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(113, 115, 122, 0.2);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.empty-cell {
+  width: 343.4px;
+}
+.ticks-marks {
+  padding: 0px 15px;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+}
+.top-one {
+  color: firebrick;
+}
+.top-ticks {
+  display: flex;
+  margin: 30px 0px 0px;
+  margin-bottom: 10px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 570;
+  color: #000;
+}
+
+.comparison-cell-left {
+  width: 37%;
+}
+
+/* .row3 {
+  width: 1140px;
+  height: 81px;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 151;
+} */
+
+.comparison-cells {
+  width: 14vw;
+
+}
+.left-row {
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+}
+
+.comparison-header .comparison-cell {
+  font-weight: 500;
+  width: 13vw;
+}
+.comparison-row {
+  padding: 13px 0px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+@media (max-width: 768px) {
+  .comparison-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 18px;
+  }
+  .comparison-cell-left:nth-child(1) {
+    grid-column: 1 / -1;
+  }
+  .empty-cell {
+    display: none;
+  }
+  .comparison-header {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .comparison-row {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 18px;
+  }
+  .comparison-cell-left:nth-child(1) {
+    grid-column: 1 / -1;
+  }
+  .comparison-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    margin-left: 26px;
+  }
+}
+
+
+
+.comparison-row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+
+.comparison-row:hover {
+  background-color: #f9f9f9;
+}
+
+.tick-icon {
+  width: 20px;
+  height: 20px;
+}

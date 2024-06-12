@@ -1,0 +1,148 @@
+{
+    "HelpDeskAutomation": {
+      "UnlimitedMailboxes": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "UnlimitedCategories": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "UnlimitedTickets": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CustomizableStatuses": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CustomizablePriorities": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "TicketCustomFields": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CustomDomainMapping": {
+        "Mighty": true,
+        "Fantastic": false,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "MultilingualAgentPortal": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AgentCollision": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "WorkSchedules": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CustomRolesandPermissions": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "TicketTagging": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "EmailNotifications": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "BulkEditing": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SatisfactionSurveys": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CustomTicketQueues": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Kanbanviewoftickets": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ProactiveAgentCollision": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SLALiveTimer": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "TaskManagement": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AssetManagement": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "UnlimitedAssets": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CategoryWiseStatuses": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AttachmentStore": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}

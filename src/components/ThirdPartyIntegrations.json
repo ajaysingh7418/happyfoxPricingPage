@@ -1,0 +1,203 @@
+{
+    "ThirdPartyIntegrations": {
+      "Aircall": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Asana": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AzureActiveDirectory-ContactSync": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AzureDevOps": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AzureActiveDirectory-SSO": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Baremetrics": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "BigCommerce": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Chargify": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ChartMogul": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ClassLink": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Clearbit": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Delighted": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Dialpad": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Facebook": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "FreshBooks": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "FullContact": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Github": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "GitLab": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "GoogleApps": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HappyFoxAssistAI": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HappyFoxChat": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HappyFoxChatbot": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HappyFoxWorkflows": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HappyFoxBusinessIntelligence": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "HubSpot": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Insightly": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Integromat": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "JamfPro": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "JIRA": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "JustCall": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Keap(fkaInfusionsoft)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "LogMeInRescue": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Magento2": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}
+  

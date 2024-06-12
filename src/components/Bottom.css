@@ -1,0 +1,15 @@
+.bottom-footer {
+    height: 260px;
+    background-color: black;
+}
+.new-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}

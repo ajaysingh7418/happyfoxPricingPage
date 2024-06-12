@@ -1,0 +1,17 @@
+{
+    "Mobile": {
+      "HelpDeskMobileApp": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AssetManagerApp": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}
+  

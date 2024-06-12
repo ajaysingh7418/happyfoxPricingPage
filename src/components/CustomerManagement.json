@@ -1,0 +1,34 @@
+{
+    "CustomerManagement": {
+      "UnlimitedContacts": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ImportContacts": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ContactCustomFields": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "UnlimitedContactGroups": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ContactGroupCustomField": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": false,
+        "EnterprisePlus": true
+      }
+    }
+}

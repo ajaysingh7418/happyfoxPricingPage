@@ -1,0 +1,23 @@
+{
+    "InbuiltIntegrations": {
+      "EmbeddableWidget": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Webhooks": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "RESTAPI(requestsperminute)": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}
+  

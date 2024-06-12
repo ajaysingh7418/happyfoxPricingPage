@@ -1,0 +1,83 @@
+{
+    "SupportCenter": {
+      "Self-ServiceKnowledgeBase": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "InternalKnowledgeBase": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "KnowledgeBaseNotifications": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SupportPortalBuilder": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "SEOoptimizationforKnowledgeBase": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      },
+      "KnowledgebaseDrafts": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "AutomaticSitemapGeneration": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ClientPortal": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      },
+      "MultilingualKnowledgeBase": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "CodeEditorforSupportCenter": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "Multi-brandHelpDeskwithSSLSupport#": {
+        "Mighty": false,
+        "Fantastic": false,
+        "Enterprise": null,
+        "EnterprisePlus": true
+      },
+      "Multi-brandingwithCustomDomain": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      },
+      "ContactGroupSpecificKnowledgeBase": {
+        "Mighty": true,
+        "Fantastic": true,
+        "Enterprise": true,
+        "EnterprisePlus": true
+      }
+    }
+}
+  
