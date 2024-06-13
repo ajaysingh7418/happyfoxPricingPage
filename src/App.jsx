@@ -9,13 +9,6 @@ import MoreProducts from './components/MoreProducts';
 import Bottom from './components/Bottom';
 
 function App() {
-  // useEffect(() => {
-  //   const link = document.createElement('link');
-  //   link.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap';
-  //   link.rel = 'stylesheet';
-  //   document.head.appendChild(link);
-  // }, []);
-
   return (
     <div>
       <Routes>
@@ -26,7 +19,7 @@ function App() {
             <Table />
             <FAQ />
             <MoreProducts />
-            <Footer />
+            {/* <Footer /> */}
           </div>
         }/>
       </Routes>
