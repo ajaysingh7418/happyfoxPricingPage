@@ -35,7 +35,7 @@ const FAQ = () => {
                         </div>
                         {openQuestionIndex === index && (
                             <div className="faq-answer">
-                                <p>Here is the answer to the question: {question}</p>
+                                <p>Here should be the answer to the question</p>
                             </div>
                         )}
                     </div>
