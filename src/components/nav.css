@@ -1,16 +1,20 @@
-*{
+* {
     list-style: none;
     box-sizing: border-box;
     font-family: inter, sans-serif;
 }
-html, body {
+
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 .top-bar {
     padding-top: 10px;
 }
+
 .nest-top-bar {
     /* margin: 0px 150px;
     padding: 0px 15px; */
@@ -18,15 +22,18 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .nest2-top-bar {
     display: flex;
     align-items: center;
 }
+
 .hf-logo {
     width: 140px;
     height: 27.96;
     padding-top: 4px;
 }
+
 .hf-productnav__menu-text {
     border: 1px solid rgb(255 58 58 / 20%);
     border-bottom: none;
@@ -46,6 +53,7 @@ html, body {
     align-items: baseline;
     color: #181c20;
 }
+
 .hover {
     display: flex;
     align-items: center;
@@ -53,10 +61,12 @@ html, body {
     width: 64vw;
     height: 46px;
 }
+
 .login {
     text-align: right;
     color: grey;
 }
+
 .login-bar {
     display: flex;
     padding: 7px 10px;
@@ -88,6 +98,7 @@ a.pricing-explainer__block.volume {
     top: 0;
     z-index: 150;
 }
+
 .new-container {
     padding-left: 15px;
     padding-right: 52px;
@@ -98,6 +109,7 @@ a.pricing-explainer__block.volume {
     margin-right: auto;
 
 }
+
 .hf-productnav__wrap {
     display: flex;
     padding: 3px 0px;
@@ -106,6 +118,7 @@ a.pricing-explainer__block.volume {
     justify-content: space-between;
     align-items: center;
 }
+
 .hf-productnav__menu-list {
     display: flex;
     height: 54px;
@@ -113,15 +126,41 @@ a.pricing-explainer__block.volume {
     padding-left: 60px;
     margin: 0px;
 }
+
 @media (max-width: 1110px) {
     .hf-productnav__menu-list {
         display: none;
     }
+    .hf-productnav__toggle {
+        cursor: pointer;
+        display: block;
+        order: 0;
+        margin-right: 8px;
+        padding: 9px 5px 9px 0;
+        min-width: 18px;
+        height: 30px;
+    }
+    .hf-productnav__toggle span {
+        display: block;
+        margin-bottom: 3px;
+        height: 2px;
+        width: 11px;
+        background: #000;
+        border-radius: 9px;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        transition: .4s ease-in-out;
+        margin-left: auto;
+        margin-right: auto
+    }
 }
+
 @media (max-width: 768px) {
     .hf-productnav__menu-list {
         display: none;
     }
+
     .hf-productnav__menu-text {
         display: none;
     }
@@ -131,6 +170,7 @@ a.pricing-explainer__block.volume {
 .hf-productnav__logo-text {
     font-weight: 300;
 }
+
 .hf-productnav__logo-wrap {
     font-size: 20px;
     display: flex;
@@ -138,6 +178,7 @@ a.pricing-explainer__block.volume {
     max-width: 199.8px;
     max-height: 41.5px;
 }
+
 .hf-productnav__link {
     width: 149.25px;
     height: 41.5px;
@@ -146,17 +187,21 @@ a.pricing-explainer__block.volume {
     gap: 12px;
     font-size: 25px;
 }
-.hf-productnav__menu-link span{
-     display: flex;
-     align-items: baseline;
-     gap: 4px;
+
+.hf-productnav__menu-link span {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
 }
+
 .button {
     border: none;
 }
+
 .hf-productnav__btn {
     font-size: 14px;
 }
+
 .hf-productnav__menu-list-item {
     margin-right: 34px;
     max-width: 130.76px;
@@ -164,6 +209,20 @@ a.pricing-explainer__block.volume {
     padding: 15px;
 
 }
+
+@media (max-width: 320px) {
+    .hf-productnav__btn-wrap {
+        align-items: baseline;
+    }
+    .hf-productnav__link {
+        width: 125.25px;
+    }
+    .hf-productnav__btn-wrap {
+        display: flex;
+        align-items: center;
+    }
+}
+
 .hf-productnav__btn-wrap {
     display: flex;
     justify-content: center;
@@ -176,6 +235,7 @@ a.pricing-explainer__block.volume {
     color: #FFFFFF;
     border-radius: 5px;
 }
+
 .pricing-banner {
     background: url(https://assets.www.happyfox.com/v2/images/pricing-new-banner-bg-new.png) no-repeat left top;
     text-align: center;
@@ -183,11 +243,13 @@ a.pricing-explainer__block.volume {
     width: 100%;
     height: px;
 }
+
 .container {
     width: 100%;
     padding: 0px 15px;
     display: inline-block;
 }
+
 .row {
     display: flex;
     align-items: center;
@@ -195,10 +257,12 @@ a.pricing-explainer__block.volume {
     width: 100%;
     height: 294px;
 }
+
 .col-md-12 {
     /* flex: 0 0 100%;
     max-width: 100%; */
 }
+
 .pricing-banner h1 {
     font-size: 40px;
     color: #000;
@@ -206,6 +270,7 @@ a.pricing-explainer__block.volume {
     margin: 80px 0 76px;
     letter-spacing: 1px;
 }
+
 .pricing-explainer {
     display: flex;
     justify-content: space-between;
@@ -215,25 +280,32 @@ a.pricing-explainer__block.volume {
     min-height: 90px;
 
 }
+
 @media (max-width: 425px) {
     .pricing-explainer__block {
         width: 45vw;
     }
+
     .pricing-explainer__block h4 {
         width: 32vw;
     }
+
     .pricing-explainer {
         width: 93vw;
     }
+
     .col-md-12 {
         width: 92vw;
     }
+
     .hf-productnav__link {
         font-size: 18px;
     }
+
     .hf-productnav__btn {
         font-size: 3vw;
     }
+
     .pricing-banner h1 {
         font-size: 37px;
     }
@@ -243,19 +315,24 @@ a.pricing-explainer__block.volume {
     .pricing-explainer {
         width: 87vw;
     }
+
     .pricing-explainer__block {
         width: 41vw;
     }
+
     .pricing-explainer__heading {
         width: 32vw;
     }
+
     .col-md-12 {
         width: 88vw;
     }
+
     .pricing-explainer__block h4 {
         width: 44vw;
     }
 }
+
 .col-md-12 {
     margin-left: auto;
     margin-right: auto;
@@ -270,13 +347,16 @@ a.pricing-explainer__block.volume {
     align-items: center;
     padding: 24px 0px 15px;
 }
+
 .pricing-explainer__block {
     height: 90px;
     background-color: #FFFFFF;
 }
+
 .pricing-explainer__block h4 {
     font-weight: 500;
 }
+
 .pricing-explainer__block.agent {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -289,6 +369,7 @@ a.pricing-explainer__block.volume {
 .agent-pricing__table {
     width: 100%;
 }
+
 .agent-pricing__bg-wrap {
     padding-top: 50px;
     background: #fff;
@@ -297,9 +378,11 @@ a.pricing-explainer__block.volume {
     display: flex;
     justify-content: center;
 }
+
 .pricing-comparison-wrapper {
     width: 100%;
 }
+
 .row2 {
     display: flex;
     flex-wrap: wrap;
@@ -307,11 +390,13 @@ a.pricing-explainer__block.volume {
     width: 83vw;
     margin-left: auto;
 }
+
 @media (max-width: 768px) {
     .row2 {
         max-width: 720px;
     }
 }
+
 .pricing-calc__tab {
     background: #f5f4f4;
     display: flex;
@@ -321,11 +406,13 @@ a.pricing-explainer__block.volume {
     margin: 0px 0px 70px;
     padding: 10px;
 }
+
 @media (max-width: 768px) {
-   .pricing-calc__tab {
-    flex-direction: column;
-  }
+    .pricing-calc__tab {
+        flex-direction: column;
+    }
 }
+
 .pricing-calc__tabs {
     text-align: center;
     padding: 13.5px 10px;
@@ -338,22 +425,26 @@ a.pricing-explainer__block.volume {
     font-size: 16px;
     font-weight: 300;
 }
+
 .pricing-calc__tabs:hover {
     background-color: #fff;
     border: 1px solid #c8c7c7;
 }
+
 .pricing-dollar__amount-snip {
     font-size: 12px;
 }
+
 .pricing-comparer {
     padding: 0px 15px 50px;
 }
+
 .pricing-plans {
     display: flex;
 }
+
 .mighty-box {
     width: 277.5px;
     height: 533.8px;
     padding: 0px 0px 10px;
 }
-

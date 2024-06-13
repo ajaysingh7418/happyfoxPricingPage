@@ -1,10 +1,17 @@
 .faq-container {
-  width: 1110px;
+  width: 70%;
   margin: 16px 0px 0px;
   padding: 60px 100px;
   font-family: Arial, sans-serif;
   box-shadow: 0 20px 10px 0 rgba(0, 0, 0, .08);
-  height: 704.57px;
+  }
+  @media (max-width: 430px) {
+    .faq-container {
+      width: 1110px;
+    }
+    .faq-container h3 {
+      font-size: 26px;
+    }
   }
 
   .faq-container h3 {

@@ -19,6 +19,17 @@
         width: 74.82vw;
       }
     }
+    .top-div {
+      width: 100%;
+    }
+    .card {
+      width: 100%;
+    }
+    .app {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   .compare-plans-icon p{
     height: 116px;
@@ -32,7 +43,8 @@
   }
   .pricing-calc__tabs.active {
     background-color: white;
-    color: black;  
+    color: black;
+    border: 1px solid #c8c7c7;
   }
   .pricing-banner-para {
     margin: 80px auto 40px;

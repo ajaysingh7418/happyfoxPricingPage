@@ -26,7 +26,11 @@ export default function Home() {
              <div className="new-container">
                 <div className="hf-productnav__wrap">
                     <div className="hf-productnav__logo-wrap">
-                        <div className="hf-productnav__toggle"></div>
+                        <div className="hf-productnav__toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                         <a className="hf-productnav__link">
                             <img src="https://assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="" width={30} height={30}/>
                             <span className="hf-productnav__logo-text">helpdesk</span>

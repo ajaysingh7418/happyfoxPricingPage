@@ -26,7 +26,7 @@ function App() {
             <Table />
             <FAQ />
             <MoreProducts />
-            {/* <Footer /> */}
+            <Footer />
           </div>
         }/>
       </Routes>
