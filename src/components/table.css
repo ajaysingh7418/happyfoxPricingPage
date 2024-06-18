@@ -58,6 +58,7 @@
 
 .comparison-cell-left {
   width: 37%;
+  padding-left: 10px;
 }
 
 /* .row3 {
@@ -75,8 +76,24 @@
 
 }
 .left-row {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px dotted gray;
   font-size: 16px;
+}
+.left-row:hover {
+  border-bottom: 1px dotted red;
+  color: red;
+  cursor: pointer;
+}
+.view-all-button {
+  color: #323643;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: solid 1px #989dad;
+    border-radius: 4px;
+    margin: 20px 8px 20px 8px;
+    cursor: pointer;
+    background: 0 0;
 }
 
 .comparison-header .comparison-cell {

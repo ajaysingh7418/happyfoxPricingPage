@@ -94,75 +94,81 @@ export default function PRICEBARS() {
     };
 
     return (
-        <section className="agent-pricing__table visible">
-            <section className="agent-pricing__bg-wrap">
-                <div className="container pricing-comparison-wrapper">
-                    <div className="row2">
-                        <div className="pricing-calc__tab">
-                            <button
-                                className={`pricing-calc__tabs ${pricingType === 'monthly' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('monthly')}
-                            >
-                                Monthly
-                            </button>
-                            <button
-                                className={`pricing-calc__tabs ${pricingType === 'annual' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('annual')}
-                            >
-                                Annual
-                            </button>
-                            <button
-                                className={`pricing-calc__tabs ${pricingType === 'twoYear' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('twoYear')}
-                            >
-                                2-Year Savings Plan
-                                <br />
-                                <span className="pricing-dollar__amount-snip">Paid Up-Front</span>
-                            </button>
-                            <button
-                                className={`pricing-calc__tabs ${pricingType === 'threeYear' ? 'active' : ''}`}
-                                onClick={() => handleTabClick('threeYear')}
-                            >
-                                3-Year Contract
-                                <br />
-                                <span className="pricing-dollar__amount-snip">Billed Annually</span>
-                            </button>
-                        </div>
-                        <div className="top-div">
-                            <div className="pricing-comparer">
-                                <div className="pricing-comparison">
-                                    <div className="pricing-plans div-center">
-                                        <div className="app">
-                                            {baseCardData.map((data, index) => (
-                                                <CARD
-                                                    key={index}
-                                                    title={data.title}
-                                                    price={currentPrices[index].price}
-                                                    savings={currentPrices[index].savings}
-                                                    features={data.features}
-                                                    buttonLabel={data.buttonLabel}
-                                                    showSavings={pricingType !== 'monthly'}
-                                                    mostPopular={data.mostPopular} // Pass the prop
-                                                />
-                                            ))}
+        <>
+            <section className="agent-pricing__table visible">
+                <section className="agent-pricing__bg-wrap">
+                    <div className="container pricing-comparison-wrapper">
+                        <div className="row2">
+                            <div className="pricing-calc__tab">
+                                <button
+                                    className={`pricing-calc__tabs ${pricingType === 'monthly' ? 'active' : ''}`}
+                                    onClick={() => handleTabClick('monthly')}
+                                >
+                                    Monthly
+                                </button>
+                                <button
+                                    className={`pricing-calc__tabs ${pricingType === 'annual' ? 'active' : ''}`}
+                                    onClick={() => handleTabClick('annual')}
+                                >
+                                    Annual
+                                </button>
+                                <button
+                                    className={`pricing-calc__tabs ${pricingType === 'twoYear' ? 'active' : ''}`}
+                                    onClick={() => handleTabClick('twoYear')}
+                                >
+                                    2-Year Savings Plan
+                                    <br />
+                                    <span className="pricing-dollar__amount-snip">Paid Up-Front</span>
+                                </button>
+                                <button
+                                    className={`pricing-calc__tabs ${pricingType === 'threeYear' ? 'active' : ''}`}
+                                    onClick={() => handleTabClick('threeYear')}
+                                >
+                                    3-Year Contract
+                                    <br />
+                                    <span className="pricing-dollar__amount-snip">Billed Annually</span>
+                                </button>
+                            </div>
+                            <div className="top-div">
+                                <div className="pricing-comparer">
+                                    <div className="pricing-comparison">
+                                        <div className="pricing-plans div-center">
+                                            <div className="app">
+                                                {baseCardData.map((data, index) => (
+                                                    <CARD
+                                                        key={index}
+                                                        title={data.title}
+                                                        price={currentPrices[index].price}
+                                                        savings={currentPrices[index].savings}
+                                                        features={data.features}
+                                                        buttonLabel={data.buttonLabel}
+                                                        showSavings={pricingType !== 'monthly'}
+                                                        mostPopular={data.mostPopular} // Pass the prop
+                                                    />
+                                                ))}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+                <div className="bottom-div">
+                    <div className="bottom-text" >All plans require a minimum of 5 help desk agents. Non-profit and educational organizations are eligible for a discount.</div>
                 </div>
-            </section>
-            <div className="compare-plans-icon compare-agent-based compare-agent-para">
-                <p>Compare Help Desk Plans</p>
-            </div>
-            <div className="pricing-comparison-table visible open-table">
-                <div className="pricing-table-header">
-                    <div className="container2">
-                        <div className="row3"></div>
+                <div className="compare-plans-icon compare-agent-based compare-agent-para">
+                    <p>Compare Help Desk Plans</p>
+                </div>
+                <div className="pricing-comparison-table visible open-table">
+                    <div className="pricing-table-header">
+                        <div className="container2">
+                            <div className="row3"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+        </>
     );
 }

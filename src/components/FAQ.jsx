@@ -19,6 +19,7 @@ const FAQ = () => {
 
     return (
         <div className='faq-box'>
+            <div className='half-div'></div>
             <div className="faq-container">
                 <h3>Frequently Asked Questions</h3>
                 {questions.map((question, index) => (
@@ -33,11 +34,9 @@ const FAQ = () => {
                                 />
                             </span>
                         </div>
-                        {openQuestionIndex === index && (
-                            <div className="faq-answer">
-                                <p>Here should be the answer to the question</p>
-                            </div>
-                        )}
+                        <div className={`faq-answer ${openQuestionIndex === index ? 'open' : ''}`}>
+                            <p>Here should be the answer to the question</p>
+                        </div>
                     </div>
                 ))}
             </div>

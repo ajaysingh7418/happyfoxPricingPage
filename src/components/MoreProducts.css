@@ -85,7 +85,13 @@
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px;
+  }
+
+  @media (max-width: 425px) {
+    .product-card {
+      margin-left: 41px;
+      margin-right: 31px;
+    }
   }
 
   .test h2 {

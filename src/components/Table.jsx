@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './table.css';
 import ticketData from './TicketManagement.json';
 import customerData from './CustomerManagement.json';
 import ComparisonRow from './TableComp';
+import ThirdPartyIntegration from './ThirdPartyIntegrations.json';
 
 const Table = () => {
   const columns = ['Mighty', 'Fantastic', 'Enterprise', 'EnterprisePlus'];
 
-  // Extracting features from both data sources
   const ticketFeatures = Object.keys(ticketData.HelpDeskAutomation);
   const customerFeatures = Object.keys(customerData.CustomerManagement);
+  const ThirdPartyFeatures = Object.keys(ThirdPartyIntegration.ThirdPartyIntegrations);
+
+  const [showAllThirdParty, setShowAllThirdParty] = useState(false);
+
+  const displayedThirdPartyFeatures = showAllThirdParty ? ThirdPartyFeatures : ThirdPartyFeatures.slice(0, 5);
+
+  const toggleShowAll = () => {
+    setShowAllThirdParty(!showAllThirdParty);
+  };
 
   return (
     <div className="App">
@@ -35,6 +44,18 @@ const Table = () => {
           {customerFeatures.map((feature) => (
             <ComparisonRow key={feature} feature={feature} columns={columns} data={customerData.CustomerManagement} />
           ))}
+
+          <div className="top-ticks">Third party Integrations</div>
+          {displayedThirdPartyFeatures.map((feature) => (
+            <ComparisonRow key={feature} feature={feature} columns={columns} data={ThirdPartyIntegration.ThirdPartyIntegrations} />
+          ))}
+
+          {!showAllThirdParty && (
+            <button className="view-all-button" onClick={toggleShowAll}>
+              VIEW ALL
+              <span style={{ paddingLeft: '3px' }}>+</span>
+            </button>
+          )}
         </div>
       </div>
     </div>

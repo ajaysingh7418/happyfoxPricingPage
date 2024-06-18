@@ -25,7 +25,7 @@ const CARD = ({ title, price, savings, features, buttonLabel, showSavings, mostP
           <a className='price-button'>
             {buttonLabel}
           </a>
-          <img src="https://assets.www.happyfox.com/v2/images/down-arrow.svg" alt="" />
+          <img className='img-rotate' src="https://assets.www.happyfox.com/v2/images/down-arrow.svg" alt=""/>
         </div>
       </ul>
     </div>
