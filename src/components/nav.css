@@ -244,7 +244,7 @@ a.pricing-explainer__block.volume {
 }
 
 .pricing-explainer__block.active {
-    background-color: #ffeada;
+    background-color: #ffff;
     box-shadow: inset 0 -8px 10px 0 RGBA(0, 0, 0, .02);
 }
 
@@ -361,7 +361,11 @@ a.pricing-explainer__block.volume {
 
 .pricing-explainer__block {
     height: 90px;
-    background-color: #FFFFFF;
+    background-color: #ffeada
+}
+
+.pricing-explainer__block:hover {
+    background-color: #ffff;
 }
 
 .pricing-explainer__block h4 {

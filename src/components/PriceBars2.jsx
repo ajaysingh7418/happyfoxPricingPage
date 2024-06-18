@@ -10,9 +10,6 @@ const baseCardData = [
             'Omnichannel Ticket Creation',
             'SLA Management',
             'Knowledge Base',
-            'SSO (GSuite/SAML/Azure)',
-            'SSL Certificate Hosting',
-            'Migration Assistance',
         ],
         buttonLabel: 'Get a Demo',
     },
@@ -22,9 +19,6 @@ const baseCardData = [
             'Everything in Mighty',
             'Multi-brand Helpdesk',
             'SLA Breach Notification',
-            'Custom Ticket Queues',
-            '24/7 Email Support',
-            'Optional EU Data Center',
         ],
         buttonLabel: 'Get a Demo',
     },
@@ -34,9 +28,6 @@ const baseCardData = [
             'Everything in Fantastic',
             'Proactive Agent Collision',
             'Task Management',
-            'Asset Management',
-            '24/7 Email/Chat Support',
-            'Uptime SLA',
         ],
         buttonLabel: 'Get a Demo',
         mostPopular: true, // Added property
@@ -47,9 +38,6 @@ const baseCardData = [
             'Everything in Enterprise',
             'Agent Scripting',
             '2 TB Attachment Store',
-            'All-time Reporting History',
-            '24/7 Email/Chat/Phone Support',
-            'Customer Success Manager',
         ],
         buttonLabel: 'Get a Demo',
     },
@@ -100,7 +88,7 @@ export default function PRICEBARS2() {
                     <div className="row2">
                         <div className="pricing-calc__tab">
                             <button
-                                className={`pricing-calc__tabs active ${pricingType === 'annual' ? 'active' : ''}`}
+                                className={`pricing-calc__tabs ${pricingType === 'annual' ? 'active' : ''}`}
                                 onClick={() => handleTabClick('annual')}
                             >
                                 Annual
@@ -147,6 +135,9 @@ export default function PRICEBARS2() {
                     </div>
                 </div>
             </section>
+            <div className="bottom-div">
+                    <div className="bottom-text" >All plans require a minimum of 5 help desk agents. Non-profit and educational organizations are eligible for a discount.</div>
+            </div>
             <div className="compare-plans-icon compare-agent-based compare-agent-para">
                 <p>Compare Help Desk Plans</p>
             </div>

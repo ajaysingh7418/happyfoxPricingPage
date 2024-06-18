@@ -2,7 +2,7 @@ import './Card.css'; // Import the CSS file
 
 const CARD = ({ title, price, savings, features, buttonLabel, showSavings, mostPopular }) => {
   return (
-    <div className={`card ${mostPopular ? 'most-popular' : ''}`}>
+    <div className={`card ${mostPopular ? 'most-popular' : ''} firstCard`}>
       {mostPopular && <p className="most-popular-label">Most Popular</p>}
       <h2>{title}</h2>
       <div className='overall-div'>
@@ -16,7 +16,9 @@ const CARD = ({ title, price, savings, features, buttonLabel, showSavings, mostP
             <p className="savings">{savings} Savings*</p>
           </div>
         )}
+        <div className='line-bar'></div>
       </div>
+
       <ul className="features">
         {features.map((feature, index) => (
           <li key={index}>{feature}</li>
