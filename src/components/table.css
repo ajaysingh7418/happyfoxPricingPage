@@ -38,7 +38,7 @@
   width: 343.4px;
 }
 .ticks-marks {
-  padding: 0px 15px;
+  /* padding: 0px 15px; */
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; */
 
@@ -54,6 +54,7 @@
   font-size: 16px;
   font-weight: 570;
   color: #000;
+  padding-left: 10px;
 }
 
 .comparison-cell-left {
@@ -123,6 +124,7 @@
   }
   .comparison-cells {
       width: 22vw;
+      margin-left: 14px;
   }
 }
 

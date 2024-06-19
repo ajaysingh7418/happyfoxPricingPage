@@ -12,7 +12,7 @@
         "Enterprise": true,
         "EnterprisePlus": true
       },
-      "AzureActiveDirectory-ContactSync": {
+      "Azure": {
         "Mighty": true,
         "Fantastic": true,
         "Enterprise": true,
@@ -24,7 +24,7 @@
         "Enterprise": true,
         "EnterprisePlus": true
       },
-      "AzureActiveDirectory-SSO": {
+      "AzureActive": {
         "Mighty": true,
         "Fantastic": true,
         "Enterprise": true,
@@ -200,4 +200,3 @@
       }
     }
 }
-  
