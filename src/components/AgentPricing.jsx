@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import CARD from "./PriceBars/Card";
 import '../assets/PriceBars.css';
 
-// Data for different plans
 const baseCardData = [
     {
         title: 'Mighty',
@@ -39,7 +38,7 @@ const baseCardData = [
             'Uptime SLA',
         ],
         buttonLabel: 'Get a Demo',
-        mostPopular: true, // Added property
+        mostPopular: true,
     },
     {
         title: 'Enterprise Plus',
@@ -55,8 +54,6 @@ const baseCardData = [
     },
 ];
 
-
-// Prices and savings for different plans based on period
 const pricingData = {
     monthly: [
         { price: 29, savings: '' },
@@ -86,7 +83,7 @@ const pricingData = {
 
 export default function PRICEBARS() {
     const [currentPrices, setCurrentPrices] = useState(pricingData.monthly);
-    const [pricingType, setPricingType] = useState('monthly'); // Default to 'monthly'
+    const [pricingType, setPricingType] = useState('monthly');
 
     const handleTabClick = (type) => {
         setCurrentPrices(pricingData[type]);
@@ -143,7 +140,7 @@ export default function PRICEBARS() {
                                                         features={data.features}
                                                         buttonLabel={data.buttonLabel}
                                                         showSavings={pricingType !== 'monthly'}
-                                                        mostPopular={data.mostPopular} // Pass the prop
+                                                        mostPopular={data.mostPopular} 
                                                     />
                                                 ))}
                                             </div>

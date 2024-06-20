@@ -1,4 +1,4 @@
-import './Card.css'; // Import the CSS file
+import './Card.css';  
 
 const CARD = ({ title, price, savings, features, buttonLabel, showSavings, mostPopular }) => {
   return (
