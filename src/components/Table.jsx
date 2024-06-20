@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './table.css';
-import ticketData from './TicketManagement.json';
-import customerData from './CustomerManagement.json';
+import '../assets/table.css';
+import ticketData from '../GlobalDataHeader/TicketManagement.json';
+import customerData from '../GlobalDataHeader/CustomerManagement.json';
 import ComparisonRow from './TableComp';
-import ThirdPartyIntegration from './ThirdPartyIntegrations.json';
+import ThirdPartyIntegration from '../GlobalDataHeader/ThirdPartyIntegrations.json';
 
 const Table = () => {
   const columns = ['Mighty', 'Fantastic', 'Enterprise', 'EnterprisePlus'];

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import CARD from "./bars/Card";
-import './PriceBars.css';
+import CARD from "./PriceBars/Card";
+import '../assets/PriceBars.css';
 
 // Data for different plans
 const baseCardData = [

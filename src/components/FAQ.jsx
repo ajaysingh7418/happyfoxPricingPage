@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FAQ.css';
+import '../assets/FAQ.css';
 
 const FAQ = () => {
     const [openQuestionIndex, setOpenQuestionIndex] = useState(null);

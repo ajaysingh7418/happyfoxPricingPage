@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./nav.css";
+import "../assets/nav.css";
 
 export default function Home() {
     const location = useLocation();

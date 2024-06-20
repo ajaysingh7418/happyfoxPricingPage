@@ -3,34 +3,27 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Table from './components/Table';
 import FAQ from './components/FAQ';
-import PRICEBARS from './components/PriceBars';
-import PRICEBARS2 from './components/PriceBars2';
-import Footer from './components/Footer';
+import PRICEBARS from './components/AgentPricing';
+import PRICEBARS2 from './components/UnlimitedPricing';
 import MoreProducts from './components/MoreProducts';
 import Bottom from './components/Bottom';
+
+const Layout = ({ children }) => (
+  <div>
+    <Home />
+    {children}
+    <Table />
+    <FAQ />
+    <MoreProducts />
+  </div>
+);
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={
-          <div>
-            <Home />
-            <PRICEBARS/>
-            <Table />
-            <FAQ />
-            <MoreProducts />
-          </div>
-        } />
-        <Route path="/unlimited-pricing" element={
-          <div>
-            <Home />
-            <PRICEBARS2/>
-            <Table />
-            <FAQ />
-            <MoreProducts />
-          </div>
-      } />
+        <Route path="/" element={<Layout><PRICEBARS /></Layout>} />
+        <Route path="/unlimited-pricing" element={<Layout><PRICEBARS2 /></Layout>} />
       </Routes>
     </Router>
   );

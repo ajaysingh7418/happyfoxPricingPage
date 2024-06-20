@@ -1,6 +1,6 @@
 import React from 'react';
-import moreProductsData from './GlobalHeader.json';
-import './MoreProducts.css';
+import moreProductsData from '../GlobalDataHeader/GlobalHeader.json';
+import '../assets/MoreProducts.css';
 
 const MoreProducts = () => {
   return (
