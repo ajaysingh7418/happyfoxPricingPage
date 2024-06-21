@@ -340,7 +340,7 @@ a.pricing-explainer__block.volume {
     }
 
     .pricing-explainer__block h4 {
-        width: 44vw;
+        width: 100%;
     }
 }
 
